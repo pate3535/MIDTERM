@@ -12,6 +12,7 @@ package status;
 public class StausUser 
 {
    public void statusDetail(String code)
+            enum input{ ONE, TWO, THREE, ZERO};
 {
 switch(code.toUpperCase())
         {
